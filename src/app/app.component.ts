@@ -9,7 +9,7 @@ import { authConfig } from './auth.config';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'oidc-app1';
+  title = 'oidc-app2';
   constructor(private oauthService: OAuthService) {
     this.configure();
   }
@@ -32,5 +32,5 @@ export class AppComponent {
     if (!claims) return null;
     return "amiladi"; 
   }
-  
+
 }

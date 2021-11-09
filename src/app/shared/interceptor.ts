@@ -15,7 +15,7 @@ export class Interceptor implements HttpInterceptor {
             setParams: {
                 'grant_type': 'authorization_code',
                 'client_id': 'myRP',
-                'redirect_uri': 'http://iam-cnam-app1.francecentral.cloudapp.azure.com',
+                'redirect_uri': 'http://iam-cnam-app2.francecentral.cloudapp.azure.com',
                 'client_secret': 'myRP',
                 'code': request.body.get('code')
             },
